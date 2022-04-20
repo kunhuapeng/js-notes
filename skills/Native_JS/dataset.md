@@ -1,0 +1,21 @@
+# 元素的 dataset
+
+使用 `dataset` 属性访问元素的自定义数据属性 (`data-*`)：
+
+```html
+<div id="user" data-name="John Doe" data-age="29" data-something="Some Data">
+    John Doe
+</div>
+
+<script>
+    const user = document.getElementById('user');
+  
+    console.log(user.dataset); 
+    // { name: "John Doe", age: "29", something: "Some Data" }
+  
+    console.log(user.dataset.name); // "John Doe"
+    console.log(user.dataset.age); // "29"
+    console.log(user.dataset.something); // "Some Data"
+</script>  
+```
+

@@ -7,7 +7,13 @@
        * [从 URL 获取查询参数](skills/Native_JS/url_params)
        * [剪贴板操作](skills/Native_JS/navigator_clipboard)
        * [parseInt (0.0000005) === 5 ?](skills/Native_JS/parseint_number)
+       * [e.target 和 e.currentTarget](skills/Native_JS/current_target)
+       * [JS 的 6 种打断点的方式](skills/Native_JS/breakpoint)
+       * [JS 的 冷知识1](skills/Native_JS/cold_knowledge)
    * Vue2
        * [生命周期](skills/Vue/life_cycle)
        * [v-cloak](skills/Vue/v_cloak)
+       * [自定义指令]()
+         * [空状态指令 v-empty](skills/Vue/directive/empty)
+         * [元素点击范围扩展](skills/Vue/directive/expandClick)
 
